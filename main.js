@@ -1,3 +1,5 @@
+
+
 const navbarEl = document.querySelector(".navbar");
 const bottomEl = document.querySelector(".bottom-container");
 const hamburgerEl = document.getElementById('hamburger');
@@ -35,3 +37,6 @@ hamburgerEl.addEventListener('click', () => {
 navbarUlEl.addEventListener('click', () => {
     navbarUlEl.classList.remove('active');
 })
+
+
+
